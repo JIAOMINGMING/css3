@@ -1,0 +1,1041 @@
+.roundcorner1{
+	border-radius: 25px;
+	background : #73AD21;
+	padding: 20px;
+	height: 150px;
+	width: 200px;
+	text-align:center;
+	line-height: 150px;
+}
+
+.roundcorner2{
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	height: 150px;
+	width: 200px;
+	text-align:center;
+	line-height: 150px;
+}
+
+.roundcorner3{
+	border-radius: 25px 15px 10px 5px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	height: 150px;
+	width: 200px;
+	text-align:center;
+	line-height: 150px;
+}
+
+.roundcorner4{
+	border-radius: 25px/50px;
+	background : #73AD21;
+	padding: 20px;
+	height: 150px;
+	width: 200px;
+	text-align:center;
+	line-height: 150px;
+}
+
+.roundcorner5{
+	border-radius: 50%;
+	background : #73AD21;
+	padding: 20px;
+	height: 150px;
+	width: 200px;
+	text-align:center;
+	line-height: 150px;
+}
+
+.roundcorner6{
+	border-radius: 50%;
+	background : #73AD21;
+	padding: 20px;
+	height: 200px;
+	width: 200px;
+	text-align:center;
+	line-height: 200px;
+}
+
+.borderimage1{
+	border : 10px solid transparent;
+	border-image: url(../img/trump.jpg) 30 round;
+	padding: 20px;
+	height: 200px;
+	width: 200px;
+	text-align:center;
+	line-height: 200px;
+}
+
+.borderimage2{
+	border : 10px solid transparent;
+	border-image: url(../img/trump.jpg) 30 stretch;
+	padding: 20px;
+	height: 200px;
+	width: 200px;
+	text-align:center;
+	line-height: 200px;
+}
+
+.borderimage3{
+	border : 10px solid transparent;
+	border-image: url(../img/trump.jpg) 30% round;
+	padding: 20px;
+	height: 200px;
+	width: 200px;
+	text-align:center;
+	line-height: 200px;
+}
+
+.borderimage4{
+	border : 10px solid transparent;
+	border-image: url(../img/trump.jpg) 50% stretch;
+	padding: 20px;
+	height: 200px;
+	width: 200px;
+	text-align:center;
+	line-height: 200px;
+}
+
+.background1{
+	background-image: url(../img/clinton.png), url(../img/trump.jpg);
+	background-position: right bottom , left top;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 50px 50px,150px 150px;
+	padding: 5px;
+	width: 300px;
+	height:300px;
+}
+
+.background2{
+	background-image: url(../img/trump.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 20px;
+	width: 300px;
+	height:300px;
+}
+
+.background3{
+	background-image: url(../img/trump.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	width: 300px;
+	height:300px;
+}
+
+.background4{
+	background-image: url(../img/trump.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: content-box;
+	padding: 20px;
+	width: 300px;
+	height:300px;
+}
+
+.background5{
+	background-image: url(../img/trump.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: border-box;
+	padding: 20px;
+	width: 300px;
+	height:300px;
+}
+
+.background6{
+	background-color: yellow;
+	border: 10px solid transparent;
+	background-clip: padding-box;
+	padding: 20px;
+	width: 300px;
+	height:300px;
+}
+
+.background7{
+	background-color: yellow;
+	border: 10px solid transparent;
+	background-clip: content-box;
+	padding: 20px;
+	width: 300px;
+	height:300px;
+}
+
+.color1{
+	width: 200px;
+	height: 200px;
+	background-color: rgba(225,0,0,0.3);
+}
+
+.color2{
+	width: 200px;
+	height: 200px;
+	background-color: rgba(225,0,0,0.7);
+}
+
+.color3{
+	width: 200px;
+	height: 200px;
+	background-color: hsl(120,100%,50%);
+}
+
+.color4{
+	width: 200px;
+	height: 200px;
+	background-color: hsl(120,10%,80%);
+}
+
+.color5{
+	width: 200px;
+	height: 200px;
+	background-color: hsla(120,100%,50%,0.3);
+}
+
+.color6{
+	width: 200px;
+	height: 200px;
+	background-color: hsla(120,100%,50%,0.7);
+}
+
+.color7{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(255,0,0);
+	opacity:0.6;
+}
+
+.gradients1{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(red, yellow);
+}
+
+.gradients2{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to right, red, yellow);
+}
+
+.gradients3{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to bottom right, black, yellow);
+}
+
+.gradients4{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(-90deg, black, yellow);
+}
+
+.gradients5{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(red, black, yellow);
+}
+
+.gradients6{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.gradients7{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+.gradients8{
+	width: 200px;
+	height: 200px;
+	background: repeating-linear-gradient(red, yellow 10%, blue 20%);
+	text-align: center;
+	line-height: 200px;
+}
+
+.gradients9{
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(red, yellow, blue);
+	text-align: center;
+	line-height: 200px;
+}
+
+.gradients10{
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(red 10%, yellow 30%, blue 90%);
+	text-align: center;
+	line-height: 200px;
+}
+
+.gradients11{
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(circle, red 10%, yellow 30%, blue 90%);
+	text-align: center;
+	line-height: 200px;
+}
+
+.gradients12{
+	width: 400px;
+	height: 200px;
+	background: repeating-radial-gradient(circle, red 10%, yellow 15%, blue 20%);
+	text-align: center;
+	line-height: 200px;
+}
+
+.gradients13{
+	width: 400px;
+	height: 200px;
+	background: radial-gradient(farthest-side at 60% 50%, red, yellow, blue);
+	text-align: center;
+	line-height: 200px;
+}
+
+.shadow1{
+	font-size:20px;
+	text-shadow: 2px 2px red;
+}
+
+.shadow2{
+	font-size:20px;
+	text-shadow: 10px 10px red;
+}
+
+.shadow3{
+	font-size:20px;
+	color: white;
+	text-shadow: 2px 2px 10px black;
+}
+
+.shadow4{
+	font-size:20px;
+	color: blue;
+	text-shadow: 0 0 10px red;
+}
+
+.shadow5{
+	font-size:20px;
+	color: white;
+	text-shadow: 0 0 2px red, 10px 10px 2px blue, 20px 20px 2px yellow;
+}
+
+.shadow6{
+	font-size:20px;
+	color: white;
+	text-shadow: 0 0 2px red, 10px 10px 20px blue, 20px 20px 0 yellow;
+}
+
+.shadow7{
+	width: 200px;
+	height: 200px;
+	background: green;
+	box-shadow: 0 0 2px red, 10px 10px 20px blue, 20px 20px 0 yellow;
+}
+
+.shadow8{
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text1{
+	white-space: nowrap;
+	width: 40px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.text2{
+	white-space: nowrap;
+	width: 40px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text3{
+	white-space: nowrap;
+	width: 40px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text3:HOVER{
+	overflow: visible;
+	text-overflow: inherit;
+}
+
+.text4{
+	width: 100px;
+	border: 1px solid #000000;
+	word-wrap: break-word;
+}
+
+.text5{
+	width: 150px;
+	border: 1px solid #000000;
+	word-break: keep-all;
+}
+
+.text6{
+	width: 100px;
+	border: 1px solid #000000;
+	word-break: break-all;
+}
+
+.transforms2d1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: translate(20px,20px);
+}
+
+.transforms2d2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: rotate(20deg);
+}
+
+.transforms2d3{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: rotate(-20deg);
+}
+
+.transforms2d4{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: scale(1.5,2);
+}
+
+.transforms2d5{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: scale(0.5,0.5);
+}
+
+.transforms2d6{
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: skewX(20deg);
+}
+
+.transforms2d7{
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: skewY(20deg);
+}
+
+.transforms2d8{
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: skew(20deg);
+}
+
+.transforms2d9{
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: skew(20deg, 10deg);
+}
+
+.transforms2d10{
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+.transforms2d10:HOVER{
+	transform: skew(20deg, 10deg);
+}
+
+.transforms3d1{
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: rotateX(150deg);
+}
+
+.transforms3d2{
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: rotateY(150deg);
+}
+
+.transforms3d3{
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	transform: rotateZ(150deg);
+}
+
+.transitions1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: width 2s;
+}
+
+.transitions1:HOVER {
+	width: 300px;
+}
+
+.transitions2{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: width 2s, height 2s;
+}
+
+.transitions2:HOVER {
+	width: 300px;
+	height: 300px;
+}
+
+.transitions3, .transitions4, .transitions5, .transitions6, .transitions7{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: width 2s, height 2s;
+}
+.transitions3:HOVER, .transitions4:HOVER, .transitions5:HOVER, .transitions6:HOVER, .transitions7:HOVER{
+	width: 300px;
+	height: 300px;
+}
+
+.transitions3{
+	transition-timing-function: linear;
+}
+
+.transitions4{
+	transition-timing-function: ease;
+}
+
+.transitions5{
+	transition-timing-function: ease-in;
+}
+
+.transitions6{
+	transition-timing-function: ease-out;
+}
+
+.transitions7{
+	transition-timing-function: ease-in-out;
+}
+
+.transitions8{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: width 2s;
+	transition-delay: 1s;
+}
+
+.transitions8:HOVER {
+	width: 300px;
+}
+
+.transitions9{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition-property: width;
+	transition-duration: 3s;
+	transition-timing-function: linear;
+	transition-delay: 1s;;
+}
+
+.transitions9:HOVER {
+	width: 300px;
+}
+
+.animations1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example1;
+	animation-duration: 4s;
+}
+
+@keyframes example1{
+	form {background-color: red;}
+	to {background-color: green;}
+}
+
+.animations2{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example2;
+	animation-duration: 4s;
+}
+
+@keyframes example2{
+	0% {background-color: red;}
+	25% {background-color: green;}
+	50% {background-color: yellow;}
+	75% {background-color: blue;}
+}
+
+.animations3{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example3;
+	animation-duration: 4s;
+	animation-delay: 2s;
+}
+
+@keyframes example3{
+	0% {background-color: red;}
+	25% {background-color: green;}
+	50% {background-color: yellow;}
+	75% {background-color: blue;}
+}
+
+.animations4{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example4;
+	animation-duration: 2s;
+	animation-iteration-count: 3;
+}
+
+@keyframes example4{
+	0% {background-color: red;}
+	25% {background-color: green;}
+	50% {background-color: yellow;}
+	75% {background-color: blue;}
+}
+
+.animations5{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example5;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes example5{
+	0% {background-color: red;}
+	25% {background-color: green;}
+	50% {background-color: yellow;}
+	75% {background-color: blue;}
+}
+
+.animations6{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	animation-name: example6;
+	animation-duration: 2s;
+	animation-iteration-count: 3;
+	animation-direction: reverse;
+}
+
+@keyframes example6{
+	0% {background-color: red; left:0px; top:0px;}
+	25% {background-color: green; left:200px; top:0px;}
+	50% {background-color: yellow; left:200px; top:200px;}
+	75% {background-color: blue; left:0px; top:200px;}
+	100% {background-color: blue; left:0px; top:0px;}
+}
+
+.animations7{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	animation-name: example7;
+	animation-duration: 2s;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+}
+
+@keyframes example7{
+	0% {background-color: red; left:0px; top:0px;}
+	25% {background-color: green; left:200px; top:0px;}
+	50% {background-color: yellow; left:200px; top:200px;}
+	75% {background-color: blue; left:0px; top:200px;}
+	100% {background-color: blue; left:0px; top:0px;}
+}
+
+.animations8{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	animation-name: example8;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes example8{
+	0% {background-color: red; left:0px; top:0px;}
+	100% {background-color: green; left:200px; top:0px;}
+}
+
+.animations9{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	animation-name: example9;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+}
+
+@keyframes example9{
+	0% {background-color: red; left:0px; top:0px;}
+	100% {background-color: green; left:200px; top:0px;}
+}
+
+.animations10{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	animation-name: example10;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-timing-function: ease-in;
+}
+
+@keyframes example10{
+	0% {background-color: red; left:0px; top:0px;}
+	100% {background-color: green; left:200px; top:0px;}
+}
+
+.animations11{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	animation-name: example11;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+}
+
+@keyframes example11{
+	0% {background-color: red; left:0px; top:0px;}
+	100% {background-color: green; left:200px; top:0px;}
+}
+
+.animations12{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-color: red;
+	animation-name: example12;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes example12{
+	0% {background-color: red; left:0px; top:0px;}
+	100% {background-color: green; left:200px; top:0px;}
+}
+
+.image1{
+	border-radius: 8px;
+}
+
+.image2{
+	border-radius: 50%;
+}
+
+.imageHref3{
+	display:inline-block;
+	border:1px solid #ddd;
+	border-radius: 5px;
+	padding: 5px;
+	transition:0.3s;
+}
+
+.imageHref3:HOVER {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.image4{
+	max-width: 100%;
+	height: auto;
+}
+
+.image5{
+	display: block;
+	margin: auto;
+	width: 100px;
+}
+
+.imgContainer6{
+	position: relative;
+}
+
+.image6{
+	width:Å@100%;
+	height:auto;
+	opacity: 0.3;
+}
+
+.image6topleft{
+	position: absolute;
+	top : 10px;
+	left: 20px;
+	font-size: 20px;
+}
+
+.image6toprighjt{
+	position: absolute;
+	top : 10px;
+	right: 20px;
+	font-size: 10px;
+}
+
+.image6bottomleft{
+	position: absolute;
+	bottom : 10px;
+	left: 20px;
+	font-size: 10px;
+}
+
+.image6bottomright{
+	position: absolute;
+	bottom : 10px;
+	right: 20px;
+	font-size: 10px;
+}
+
+.image6center{
+	position: absolute;
+	top : 50%;
+	left: 50%;
+	font-size: 10px;
+}
+
+.image7{
+	width: 100%;
+}
+
+.image7container{
+	text-align: center;
+	padding: 10px;
+}
+
+.image7polaroid{
+	width: 80%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+.button1{
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.button2{
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius:10px;
+}
+
+.button3{
+	background-color: white;
+	border: 1px solid red;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius:10px;
+}
+
+.button4{
+	background-color: white;
+	border: 1px solid red;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius:10px;
+	transition-duration:1s;
+}
+.button4:HOVER {
+	background-color: green;
+	border:1px solid black;
+	color: white;
+	border-radius: 20px;
+}
+
+.button5{
+	background-color: white;
+	border: 1px solid red;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+	cursor: pointer;
+	border-radius:10px;
+	transition-duration:1s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button5:HOVER {
+	background-color: green;
+	border:1px solid black;
+	color: white;
+	border-radius: 20px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24) , 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button6{
+	background-color: green;
+	border:1px solid black;
+	color: white;
+	border-radius: 20px;
+	opacity:0.5;
+	cursor: not-allowed;
+}
+
+.button7{
+	border-radius: 20px;
+	width: 50%;
+}
+.button8, .button9, .button10, .button11{
+	background-color: green;
+	border:1px solid black;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+
+.button8:HOVER, .button9:HOVER, .button10:HOVER, .button11:HOVER{
+	background-color: white;
+	border:1px solid blue;
+	color: red;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24) , 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button12{
+	background-color: white;
+	border:1px solid blue;
+	color: red;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24) , 0 17px 50px 0 rgba(0,0,0,0.19);
+	margin-bottom :100px;
+}
+.button12:ACTIVE {
+	transform:translateY(20px);
+}
+
+ul.pagination{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.pagination li{
+	display: inline;
+}
+
+ul.pagination li a{
+	color: black;
+	float: left;
+	padding: 6px 8px;
+	text-decoration: none;
+}
+
+ul.pagination li a.active{
+	background-color: green;
+	color: white;
+}
+
+ul.pagination li a:HOVER:not(.active) {
+	background-color: red;
+}
+
+ul.pagination li:FIRST-CHILD {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+ul.pagination li:lase-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.multiColum1{
+	column-count: 3;
+	column-gap: 40px;
+	column-rule-style:solid;
+	column-rule-width: 10px;
+	column-rule-color: red;
+	column-width: 100px;
+}
